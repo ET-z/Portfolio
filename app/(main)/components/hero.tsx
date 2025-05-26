@@ -56,7 +56,8 @@ export default function Hero() {
       <div className="flex-1 flex-col h-full pt-16 lg:p-0 lg:w-1/2 flex justify-center text-4xl items-center space-y-8">
         <h1>Hello! <br />I'm Enkhtushig</h1>
         <Link 
-          href=""
+          href="https://drive.google.com/file/d/16DSN5pxTR20beYtRtonQ2lnZbPOqmP3h/view?usp=sharing"
+          target="_blank"
         > 
           <Button 
             className="p-4"
