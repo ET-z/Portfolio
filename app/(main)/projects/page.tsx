@@ -28,6 +28,13 @@ export default function Home() {
       <div className="min-h-screen lg:flex-1 lg:h-full lg:sticky top-0 flex flex-col justify-center items-center py-8 lg:py-0 lg:border-r-2 lg:border-r-gradient-to-b lg:from-white lg:via-gray-800 lg:to-white" style={{ borderImageSlice: 1, borderImageSource: 'linear-gradient(to bottom, white, black, white)' }}>
         <h1 className="text-5xl">Projects</h1>
         <p>Here are some of the projects I have worked on!</p>
+        <Image 
+          src="https://res.cloudinary.com/dtnscafax/image/upload/v1748244465/The_Sad_Snowman_-_Losing_My_Head_qtnwqv.png"
+          alt="Waving snowman"
+          width={300}
+          height={300}
+          className="rounded-lg"
+        />
       </div>
       <div className="lg:flex-1 w-full flex flex-col items-center">
         {projectLinks.map(({ title, link, description, image }) => (

@@ -28,6 +28,13 @@ export default function Home() {
         <a href="https://github.com/ET-z" target="_blank" rel="noopener noreferrer" className="flex flex-row">
           <Image src="/github-mark.svg" alt="GitHub" width={24} height={24} />
         </a>
+        <Image 
+          src="https://res.cloudinary.com/dtnscafax/image/upload/v1748244555/The_Sad_Snowman_-_Existencial_Crisis_qsu7f2.png"
+          alt="Waving snowman"
+          width={300}
+          height={300}
+          className="rounded-lg"
+        />
       </div>
     </div>
   );

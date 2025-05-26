@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import Button from "@/ui/button";
 import "@/app/(main)/components/marquee.css"
+import Image from "next/image";
 
 
 export default function Hero() {
@@ -52,7 +53,7 @@ export default function Hero() {
 
   return (
     <div className="w-full h-full flex flex-col lg:flex-row justify-center items-center font-['Josefin_Sans']"> 
-      <div className="flex-1 flex-col lg:w-1/2 flex justify-center text-4xl items-center space-y-8">
+      <div className="flex-1 flex-col h-full pt-16 lg:p-0 lg:w-1/2 flex justify-center text-4xl items-center space-y-8">
         <h1>Hello! <br />I'm Enkhtushig</h1>
         <Link 
           href=""
@@ -63,6 +64,13 @@ export default function Hero() {
             <p className="text-xl">Check out my resume!</p>
           </Button>
         </Link>
+        <Image 
+          src="https://res.cloudinary.com/dtnscafax/image/upload/v1748244449/The_Sad_Snowman_-_Waving_1_nck9nj.png"
+          alt="Waving snowman"
+          width={300}
+          height={300}
+          className="rounded-lg hidden lg:flex"
+        />
       </div>
       <div className="flex-1 lg:h-full lg:w-1/2 text-4xl font-bold flex flex-col justify-center items-center space-y-16">
         <p className="text-center">I am <span id="changing-word"></span></p>
