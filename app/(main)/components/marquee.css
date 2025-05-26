@@ -1,0 +1,33 @@
+.skills {
+  overflow: clip;
+  background-color: white;
+}
+
+.skills-track {
+  display: flex;
+  padding-left: 20px;
+  gap: 20px;
+  width: max-content;
+  align-items: center;
+  animation: marquee 20s linear infinite;
+}
+
+.skills p {
+  color: black;
+  width: 400px;
+  border-radius: 999px;
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center;
+}
+
+.skills:hover .skills-track {
+  animation-play-state: paused;
+  cursor: default;
+}
+
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
